@@ -1,4 +1,4 @@
-import { IMalariaDataType, MalariaData } from '@/@types'
+import { IMalariaDataType } from '@/@types'
 import * as DF from 'danfojs-node'
 import { getCentralValue } from './get-central-value'
 import { fillMissingWithMean } from './prepare-data-off-nullable-fields'

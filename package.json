@@ -4,6 +4,8 @@
   "description": "- [ ] - Fornecer sintomas - [ ] - Fornecer Causas - [ ] - Fornecer Tratamentos",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "tsx watch src/http/server.ts",
     "dev": "tsx watch src/http/server.ts",
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
