@@ -1,11 +1,13 @@
 import fastify from 'fastify'
 import fastifyCors from '@fastify/cors'
-import { trainingDataSet } from './routes/training-data'
+import { deathPreditian } from './routes/death-predition'
+import { deathRisk } from './routes/death-risk'
 
 const app = fastify()
 
 app.register(fastifyCors)
-app.register(trainingDataSet)
+app.register(deathPreditian)
+app.register(deathRisk)
 
 app
   .listen({
